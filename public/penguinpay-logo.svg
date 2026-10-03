@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PenguinPay logo</title>
+  <desc id="desc">A black PenguinPay P mark with the PenguinPay wordmark.</desc>
+  <rect width="512" height="512" rx="92" fill="#ffffff"/>
+  <rect x="48" y="112" width="168" height="168" rx="42" fill="#050505"/>
+  <text x="132" y="238" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="118" font-weight="800" text-anchor="middle">P</text>
+  <text x="236" y="224" fill="#111111" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="-2">PenguinPay</text>
+  <rect x="48" y="326" width="416" height="12" rx="6" fill="#050505"/>
+</svg>

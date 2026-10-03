@@ -1,0 +1,13 @@
+{
+  "name": "penguinpay",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-24",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    { "pattern": "penguin-pay.online", "custom_domain": true },
+    { "pattern": "www.penguin-pay.online", "custom_domain": true }
+  ]
+}
