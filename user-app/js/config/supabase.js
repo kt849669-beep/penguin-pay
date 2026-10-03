@@ -8,9 +8,9 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 // You can enter your live Supabase credentials here or in localStorage:
 // ==============================================================
 export const SUPABASE_CONFIG = {
-  url: localStorage.getItem("penguinpay_supabase_url") || "", // e.g. "https://xxxx.supabase.co"
-  anonKey: localStorage.getItem("penguinpay_supabase_anon_key") || "", // e.g. "eyJ..."
-  enabled: !!(localStorage.getItem("penguinpay_supabase_url") && localStorage.getItem("penguinpay_supabase_anon_key"))
+  url: localStorage.getItem("penguinpay_supabase_url") || "https://pzpaxfsmkcgwjawghljr.supabase.co",
+  anonKey: localStorage.getItem("penguinpay_supabase_anon_key") || "sb_publishable_as9C5edvb989q-pJ-sd_Lg_GizG_cIV",
+  enabled: true
 };
 
 let remoteClient = null;

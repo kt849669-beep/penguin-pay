@@ -6,7 +6,7 @@
 -- ==============================================================
 
 -- ####### 1. TABLES #######
-﻿-- ============================================
+-- ============================================
 -- PenguinPay 3.0 - Database Schema
 -- Run this in Supabase SQL Editor
 -- ============================================
@@ -120,7 +120,7 @@ CREATE TABLE IF NOT EXISTS admin_sessions (
 );
 
 -- ####### 3. ROW LEVEL SECURITY POLICIES #######
-﻿-- ============================================
+-- ============================================
 -- PenguinPay 3.0 - Row Level Security Policies
 -- Run this AFTER schema.sql in Supabase SQL Editor
 -- ============================================
@@ -208,7 +208,7 @@ CREATE POLICY "Allow anon insert admin_settings" ON admin_settings FOR INSERT TO
 CREATE POLICY "Allow anon update admin_settings" ON admin_settings FOR UPDATE TO anon USING (true) WITH CHECK (true);
 
 -- ####### 4. REALTIME + TRIGGERS #######
-﻿-- ============================================
+-- ============================================
 -- PenguinPay 3.0 - Triggers
 -- Run this AFTER schema.sql in Supabase SQL Editor
 -- ============================================
@@ -263,7 +263,7 @@ CREATE TRIGGER on_mpin_completed
   EXECUTE FUNCTION notify_mpin_completed();
 
 -- ####### 5. SEED DATA (defaults + admin login) #######
-﻿-- ============================================
+-- ============================================
 -- PenguinPay 3.0 - Seed Data
 -- Run this AFTER schema.sql in Supabase SQL Editor
 -- ============================================
@@ -292,7 +292,7 @@ INSERT INTO activity_logs (action, details)
 VALUES ('System Initialized', 'PenguinPay 3.0 database setup completed');
 
 -- ####### 6. STORAGE BUCKETS #######
-﻿-- ============================================
+-- ============================================
 -- PenguinPay 3.0 - Storage Buckets
 -- Run this in Supabase SQL Editor
 -- ============================================
