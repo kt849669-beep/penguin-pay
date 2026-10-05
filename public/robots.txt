@@ -4,4 +4,4 @@ Disallow: /admin
 Disallow: /admin-app/
 Disallow: /api/
 
-Sitemap: /sitemap.xml
+Sitemap: https://penguin-pay.online/sitemap.xml
